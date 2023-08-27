@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Courgette', cursive; */
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    background-color: #212529;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.navigation h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    margin-left: 150px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.navigation h2:hover{
+    color: black;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+.navigation ul li{
+    list-style-type: none;
+    margin: 0 20px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: darkgray;
+    transition: 0.3s;
+}
+.navigation ul li a:hover, .navigation ul li a.active{
+    border-bottom: 2px solid #FFD500;
+}
+.navigation button{
+    background-color: #FFD500;
+    border: 1px solid #FFD500;
+    padding: 12px 35px;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 45px;
+    margin-left: 170px;
+    transition: 0.3s all;
+}
+.navigation button:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+
+/* hero area code start  */
+
+.hero-area{
+    display: flex;
+    margin-bottom: 100px;
+}
+.hero-area-img{
+    margin-left: 200px;
+    width: 500px;
+}
+.hero-area-img img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+.hero-area-text{
+    margin-top: 250px;
+}
+.hero-area-text h3{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 15px 35px;
+    font-size: 40px;
+    font-weight: 400;
+    border-radius: 50px;
+}
+.hero-area-text i{
+    color: #FFD500;
+}
+.hero-area-text button{
+    background-color: #FFD500;
+    border: 1px solid #FFD500;
+    padding: 15px 35px;
+    font-size: 37px;
+    font-weight: 400;
+    border-radius: 50px;
+    margin-top: 20px;
+    transition: 0.5s all;
+}
+.hero-area-text button:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+
+/* first section code start  */
+
+.first-section{
+    width: 1100px;
+    margin: auto;
+}
+.first-section-flex{
+    display: flex;
+    gap: 70px;
+}
+.first-sec-text{
+    margin-top: 30px;
+}
+.first-sec-text h3{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.first-sec-text p{
+    font-family: 'Courgette', cursive;
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    color: rgb(138, 129, 129);
+}
+.first-sec-text h5{
+    font-family: 'Courgette', cursive;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+.first-sec-text span{
+    margin-left: 30px;
+    font-family: 'Courgette', cursive;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.first-sec-img{
+    width: 1400px;
+}
+.first-sec-img img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.first-sec-content{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.first-sec-singleitems{
+    
+}
+.first-sec-singleitems h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.first-sec-singleitems p{
+    font-family: 'Courgette', cursive;
+    line-height: 2rem;
+    font-size: 19px;
+    font-weight: 400;
+    color: rgb(138, 129, 129);
+    letter-spacing: 1.5px;
+    margin-bottom: 120px;
+}
+
+/* second section code start  */
+
+
+.section-2{
+    background-color: #f9f9f9;
+    padding: 80px 0 20px 0;
+}
+.second-section{
+    width: 1200px;
+    margin: auto;
+}
+.second-section h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+.second-section-flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+.second-sec-div-flex h4{
+    margin-left: 110px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.second-sec-div-flex h5{
+    margin-left: 110px;
+    font-size: 18px;
+    font-family: 'Courgette', cursive;
+    font-weight: 300;
+}
+.second-div-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.image-div{
+    width: 200px;
+}
+.image-div img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.text-div p{
+    line-height: 2rem;
+    margin-left: 20px;
+    font-size: 19px;
+    font-family: 'Courgette', cursive;
+    color: rgb(91, 86, 86);
+}
+
+/* third section code start  */
+
+.third-section{
+    width: 1100px;
+    margin: 80px auto 140px auto;
+}
+.third-section h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.third-section h4{
+    font-family: 'Courgette', cursive;
+    font-size: 23px;
+    font-weight: 200;
+    padding: 20px 40px;
+    background-color: rgba(220, 220, 220, 0.304);
+    border: 1px solid rgba(169, 169, 169, 0.212);
+}
+.third-section h5{
+    font-family: 'Courgette', cursive;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+/* contact & footer section code start  */
+
+.footer-section{
+    width: 1200px;
+    margin: auto;
+}
+.footer-sec-flex{
+    display: flex;
+    gap: 150px;
+}
+form .footer-btn{
+    display: block;
+    width: 600px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    font-family: 'Courgette', cursive;
+    border-bottom: 1px solid rgb(185, 177, 177);
+    margin-bottom: 50px;
+}
+#textarea{
+    font-size: 19px;
+    font-family: 'Courgette', cursive;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(185, 177, 177);
+}
+.footer-btn-1{
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 13px 75px;
+    border-radius: 50px;
+    background-color: #FFD500;
+    border: 1px solid #FFD500;
+    transition: 0.3s all;
+}
+.footer-btn-1:hover{
+    background-color: black;
+    color: white;
+}
+.footer-sec-text h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.footer-sec-text h4{
+    font-size: 19px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.footer-sec-text h3{
+    font-size: 22px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.social-icon{
+    font-size: 25px;
+}
+.social-icon i{
+    margin-right: 30px;
+    color: #5d5a5a;
+    transition: 0.3s all;
+    margin-bottom: 80px;
+}
+.social-icon i:hover{
+    color: black;
+}
